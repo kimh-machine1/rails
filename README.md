@@ -12,7 +12,7 @@ Feel free to fork this repo and try different configurations
     * unlike the other options, this applies to Circle only
     * If a developer uses this option, he'll likely use this plus one of the
       other 3 options
-  * Given the 4 possibilities above aren't mutually exclusive, that means
+  * The 4 possibilities above aren't mutually exclusive, that means
     there are 2^4 = 16 different ways someone can set their ruby version
     (Technically 15 ways and 1 way to not-set a Ruby version)
 * Dependency Version Management
@@ -26,6 +26,12 @@ Feel free to fork this repo and try different configurations
   * Bundler also does, but doesn't make them globally executable.
     * Bundler-installed executables are meant to be run with `bundle exec
      <cmd>`
+  * Rvm provides its own dependency isolation environment called gemsets
+  * RVM modifies the $PATH so that gem-executables search for a match in the
+    following order:
+    * current gemset
+    * global
+    * system-ruby gems (sudo gem install can put gems here)
 
 ## Branches
 
