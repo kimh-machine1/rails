@@ -18,3 +18,4 @@ Feel free to fork this repo and try different configurations
     * Rubygems, provided by Ruby
     * Bundler, a Rubygem that most production Ruby projects will rely on for
       app dependencies
+      * Bundler relies on the Gemfile and Gemfile.lock to specify dependencies
