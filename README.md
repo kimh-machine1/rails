@@ -19,3 +19,9 @@ Feel free to fork this repo and try different configurations
     * Bundler, a Rubygem that most production Ruby projects will rely on for
       app dependencies
       * Bundler relies on the Gemfile and Gemfile.lock to specify dependencies
+  * Command line execution
+    * Rubygems installs executables for some gems, which are usually globally
+      available.
+    * Bundler also does, but doesn't make them globally executable.
+      * Bundler-installed executables are meant to be run with `bundle exec
+       <cmd>`
