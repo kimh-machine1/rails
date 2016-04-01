@@ -37,6 +37,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
   gem 'capybara-webkit'
+  gem 'rspec_junit_formatter'
 end
 
 group :development do
