@@ -49,3 +49,6 @@ group :development do
 end
 
 gem 'slim'
+
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
