@@ -51,4 +51,4 @@ end
 gem 'slim'
 
 gem 'wicked_pdf'
-gem 'wkhtmltopdf'
+gem 'wkhtmltopdf-binary'
