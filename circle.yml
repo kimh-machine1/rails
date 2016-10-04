@@ -1,0 +1,6 @@
+machine:
+  environment:
+    QMAKE: /opt/qt55/bin/qmake
+
+  pre:
+    - echo 'source /opt/qt55/bin/qt55-env.sh' >> /home/ubuntu/.circlerc
